@@ -7,7 +7,7 @@ $ctoken_id = $_GET['ctoken_id'];
 $uid = $_GET['uid'];
 $time = time();
 
-$api_url = "https://com-sev.webapp.163.com/g112nacdkey_query_uidinfo/api?callback=jQuery111305791179974480092_1704477159415&img_auth={$captcha}&ctoken_id={$ctoken_id}&uid={$uid}&host_test=0&area=hmt&_={$time}";
+$api_url = "https://com-sev.webapp.163.com/g112nacdkey_query_uidinfo/api?callback=jQuery11130795382142618188_1707547893735&img_auth={$captcha}&ctoken_id={$ctoken_id}&uid={$uid}&host_test=0&area=hmt&_={$time}";
 
 $ch = curl_init($api_url);
 
