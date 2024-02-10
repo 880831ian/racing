@@ -11,6 +11,7 @@ $api_url = "https://com-sev.webapp.163.com/g112nacdkey_query_uidinfo/api?callbac
 
 $ch = curl_init($api_url);
 
+curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPGET, true);
 $response = curl_exec($ch);
