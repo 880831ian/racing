@@ -238,7 +238,7 @@
         Swal.fire({
           icon: "error",
           title: "兌換虛寶失敗",
-          text: "驗證使用者時發生錯誤",
+          text: "目前太多人使用，導致官方 API 沒有回應，請稍候再試，謝謝。",
           confirmButtonColor: "#3085d6",
           allowOutsideClick: false,
           allowEscapeKey: false,
