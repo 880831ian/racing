@@ -21,7 +21,7 @@
       <figure class="figure">
         <img src="icon.webp" class="figure-img img-fluid rounded" width="75" height="75">
       </figure>
-      &nbsp; 巔峰極速 兌換虛寶 v1.1
+      &nbsp; 巔峰極速 兌換虛寶 v1.2
     </h2>
 
     <br>
@@ -57,8 +57,7 @@
       <p class="mb-0">
         如果有任何問題，或是有新的虛寶，歡迎直接在留言區留言或是傳
         <a href="https://t.me/pinyichuchu">TG 訊息 </a>給我，我會盡快回覆大家的問題。<br>
-        對於程式碼有興趣的朋友，可以點擊右側連結查看程式碼，小弟隨意寫寫的
-        Side Project，有更好的寫法或是優化，歡迎發 PR，記得順手給我個⭐，<a href="https://github.com/880831ian/racing">GitHub 連結點我</a>。<br>
+        此為小弟隨意寫寫的 Side Project，對於程式碼有興趣的朋友，或是有更好的寫法及優化，歡迎發 PR，記得順手給我個⭐，<a href="https://github.com/880831ian/racing">GitHub 連結點我</a>。<br>
         開發人員：<a href="https://blog.pin-yi.me/">Pin-Yi</a>
       </p>
     </div>
