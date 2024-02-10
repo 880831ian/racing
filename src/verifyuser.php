@@ -34,7 +34,4 @@ if ($jsonData['status'] === false) {
     }
     return;
 }
-
-if ($jsonData['status'] === true) {
-    echo json_encode(["status" => true]);
-}
+echo json_encode(["status" => true]);
