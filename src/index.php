@@ -21,7 +21,7 @@
       <figure class="figure">
         <img src="icon.webp" class="figure-img img-fluid rounded" width="75" height="75">
       </figure>
-      &nbsp; 巔峰極速 兌換虛寶 v1.2
+      &nbsp; 巔峰極速 兌換虛寶 v1.3
     </h2>
 
     <br>
@@ -51,7 +51,7 @@
       </p>
 
       <hr>
-      虛寶最後更新時間：2024/02/10 13:25:11
+      虛寶最後更新時間：2024/02/22 14:28:30
       <hr>
 
       <p class="mb-0">
@@ -118,13 +118,53 @@
 
     <br>
     <h2>
-      <label for="id" class="form-label">兌換虛寶狀態</label>
+      <label for="id" class="form-label">
+        兌換虛寶狀態
+        <button class="btn btn-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#expired" aria-expanded="false" aria-controls="expired">
+          查看已過期序號
+        </button></label>
     </h2>
+
+    <div class="collapse" id="expired">
+      <div class="card card-body">
+        <h2>
+          <label for="id" class="form-label">已過期序號清單</label>
+        </h2>
+
+        <table id="expired" class="table table-dark table-bordered">
+          <thead>
+            <tr class="table-dark">
+              <th scope="col">排序</th>
+              <th scope="col">虛寶代碼</th>
+              <th scope="col">虛寶內容</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+
+        <script>
+          fetch('expired.json')
+            .then(response => response.json())
+            .then(data => {
+              var tbody = document.querySelector('#expired tbody');
+              data.forEach(item => {
+                var row = document.createElement('tr');
+                row.innerHTML = `<th>${item['排序']}</th><td>${item['虛寶代碼']}</td><td>${item['虛寶內容']}</td>`;
+                tbody.appendChild(row);
+              });
+            })
+            .catch(error => console.error('Error:', error));
+        </script>
+
+      </div>
+      <br>
+    </div>
 
     <table class="table table-dark table-bordered">
       <thead>
         <tr class="table-dark">
-          <th scope="col">數量</th>
+          <th scope="col">排序</th>
           <th scope="col">虛寶代碼</th>
           <th scope="col">虛寶內容</th>
           <th scope="col">狀態</th>
