@@ -21,7 +21,7 @@
       <figure class="figure">
         <img src="icon.webp" class="figure-img img-fluid rounded" width="75" height="75">
       </figure>
-      &nbsp; 巔峰極速 兌換虛寶 v1.4
+      &nbsp; 巔峰極速 兌換虛寶 v1.5
     </h2>
 
     <br>
@@ -51,7 +51,7 @@
       </p>
 
       <hr>
-      虛寶最後更新時間：2024/03/02 00:02:20
+      虛寶最後更新時間：2024/08/10 00:40:39
       <hr>
 
       <p class="mb-0">
@@ -81,7 +81,7 @@
 
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              <img src="../c1355e1d21aa24135fe1ec1929f3c5811e7bf968c4cbb7a06f30801c9c77d20a.jpeg" class="img-fluid" alt="取得遊戲 ID 範例" />
+              <img src="../sh14jylvls10psmagto7busosmakar97.jpeg" class="img-fluid" alt="取得遊戲 ID 範例" />
             </div>
             <br>
           </div>
