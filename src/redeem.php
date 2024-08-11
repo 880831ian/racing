@@ -6,8 +6,8 @@ $uid = $_GET['uid'];
 $codes = array( //虛寶
     "VIP777",
     "VIP888",
-    "TOP32D2",
     "TOP32",
+    "TOP32D2",
     "ELITE16",
     "MASTER8"
 );
