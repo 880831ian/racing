@@ -10,7 +10,8 @@ $codes = array( //虛寶
     "yyk4q7jkfe",
     "yydpypfq68",
     "yynn7wnner",
-    "yyh3jjjenf"
+    "yyh3jjjenf",
+    "yyk4yr8dhn"
 );
 
 $context = array( //虛寶內容
@@ -20,7 +21,8 @@ $context = array( //虛寶內容
     "寶石鑰匙*1、鑽石*150",
     "寶石鑰匙*1、鑽石*150",
     "寶石鑰匙*1",
-    "鑽石*300"
+    "鑽石*300",
+    "寶石鑰匙*1、鑽石*150"
 );
 
 $results = array();
