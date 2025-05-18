@@ -13,7 +13,8 @@ $codes = array( //虛寶
     "yyh3jjjenf",
     "yyk4yr8dhn",
     "yytr8tccmq",
-    "yyjeynar6x"
+    "yyjeynar6x",
+    "yyc7cq6txw"
 );
 
 $context = array( //虛寶內容
@@ -27,6 +28,7 @@ $context = array( //虛寶內容
     "寶石鑰匙*1、鑽石*150",
     "(新星賽) 鑽石*50",
     "(新星賽) 鑽石*100",
+    "(新星賽) 抽車券*2"
 );
 
 $results = array();
