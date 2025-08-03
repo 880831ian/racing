@@ -4,31 +4,21 @@ header('Content-Type: application/json');
 
 $uid = $_GET['uid'];
 $codes = array( //虛寶
-    "yyjd6rw4hm",
-    "yy4ccdk8ch",
-    "yy74m64ecn",
-    "yyk4q7jkfe",
-    "yydpypfq68",
-    "yynn7wnner",
-    "yyh3jjjenf",
     "yyk4yr8dhn",
     "yytr8tccmq",
     "yyjeynar6x",
-    "yyc7cq6txw"
+    "yyc7cq6txw",
+    "RACEGAME",
+    "BESTDRIVER"
 );
 
 $context = array( //虛寶內容
-    "寶石鑰匙*5",
-    "寶石鑰匙*1",
-    "寶石鑰匙*1、鑽石*150",
-    "寶石鑰匙*1、鑽石*150",
-    "寶石鑰匙*1、鑽石*150",
-    "寶石鑰匙*1",
-    "鑽石*300",
     "寶石鑰匙*1、鑽石*150",
     "(新星賽) 鑽石*50",
     "(新星賽) 鑽石*100",
-    "(新星賽) 抽車券*2"
+    "(新星賽) 抽車券*2",
+    "鑽石*88、金幣*288",
+    "鑽石*88、金幣*288"
 );
 
 $results = array();
